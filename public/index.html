@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+</head>
+<body>
+  <div id="root">
+    <style>
+      body {
+        background:#4db5ff;
+      }
+      * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.loadBack {
+  background-image: url(../src/assets/bg-texture.png);
+  width: 100%;
+  position: inherit;
+  height: 100vh;
+}
+.loadCont {
+    position: absolute;
+    height: 50px;
+    width: 135px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
+
+div div.ball {
+    width: 20px;
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    height: 20px;
+    border-radius: 50%;
+    z-index: 999;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+}
+
+.ball-one {
+    background-color: #2c2c6c;
+    animation: jump .5s ease 0s infinite alternate;
+}
+
+.ball-two {
+    background-color: white;
+    animation: jump .5s ease .15s infinite alternate;
+}
+
+.ball-three {
+    background-color: #2c2c6c;
+    animation: jump .5s ease .25s infinite alternate;
+}
+
+.ball-four {
+    background-color: white;
+    animation: jump .5s ease .35s infinite alternate;
+}
+
+.shadow {
+    position: relative;
+    opacity: .1;
+    bottom: 20px;
+    width: 20px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+    margin: 5px;
+}
+
+.shadow-one {
+    animation: shrink .5s ease .0s infinite alternate;
+}
+
+.shadow-two {
+    animation: shrink .5s ease .15s infinite alternate;
+}
+
+.shadow-three {
+    animation: shrink .5s ease .25s infinite alternate;
+}
+
+.shadow-four {
+    animation: shrink .5s ease .35s infinite alternate;
+}
+
+@keyframes jump {
+    0% {transform: scaleY(.8);}
+    100% {
+        transform: translateY(-70px);
+    }   
+}
+
+@keyframes shrink {
+    100% {
+        transform: scaleX(.5);
+        opacity: .01;
+    }    
+}
+
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <div class="loadBack">
+        <div class="loadCont">
+          <div class="ball ball-one" style='color: white'>N</div>
+          <div class="ball ball-two" style='color: #2c2c6c'>U</div>
+          <div class="ball ball-three" style='color: white' >E</div>
+          <div class="ball ball-four" style='color: #2c2c6c'  >L</div>
+          <div class="shadow shadow-one"></div>
+          <div class="shadow shadow-two"></div>
+          <div class="shadow shadow-three"></div>
+          <div class="shadow shadow-four"></div>
+      </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
