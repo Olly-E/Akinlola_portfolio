@@ -46,7 +46,7 @@ const About = () => {
           >
             <FaAward className="about__icons" />
             <h5>Experience</h5>
-            <small>2+ Years Working</small>
+            <small>3+ Years Working</small>
           </motion.article>
           <motion.article className="about__card"
             variants={cardAnimation2}
@@ -75,7 +75,7 @@ const About = () => {
           whileInView="show"
           viewport={{once: true}}
         >
-        Individual with love for designs and unique challenges, imbued overtime with problem solving skills. A full time front end and mobile app engineer with ability to build responsive websites and web apps for buisness of varying sizes, with eye catching UI designs and complete web functionality that makes them stand out from the ordinary.
+        Individual with love for designs and unique challenges, imbued overtime with problem solving skills. A full time UI/UX and graphics designer with ability to design responsive websites and web apps for buisness of varying sizes, with eye catching UI designs and complete web functionality that makes them stand out from the ordinary.
         </motion.p>
 
         <motion.a href="#contact" className='btn btn-primary'

@@ -20,12 +20,12 @@ const Header = () => {
           variants={nameAnimation2}
           initial="hidden"
           animate="show"
-         >Emmanuel Akinsiku</motion.h1>
+         >Anibi Elijah A.</motion.h1>
          <motion.h5 className="text-light"
           variants={nameAnimation3}
           initial="hidden"
           animate="show"
-         >Frontend Developer</motion.h5>
+         >Graphics, UI/UX/ Designer</motion.h5>
          <CTA />
          <HeaderSocials />
          <motion.div className='Invisible'
