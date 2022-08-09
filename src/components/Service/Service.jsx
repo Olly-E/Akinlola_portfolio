@@ -12,12 +12,14 @@ const Service = () => {
         initial="hidden"
         whileInView="show"
         viewport={{once: true}}
+        style={{color: '#1f1f38'}}
       >What I offer</motion.h5>
       <motion.h2
         variants={nameAnimation2b}
         initial="hidden"
         whileInView="show"
         viewport={{once: true}}
+        style={{color: '#1f1f38'}}
       >Services</motion.h2>
       <div className="container services__container">
         <motion.article className="service"
@@ -32,7 +34,7 @@ const Service = () => {
               initial="hidden"
               whileInView="show"
               viewport={{once: true}}
-            >Web Development</motion.h3>
+            >UI / UX DESIGNER</motion.h3>
           </div>
 
           <ul className="service__list">
@@ -43,7 +45,7 @@ const Service = () => {
               viewport={{once: true}}
             >
               <BsCheck2 className="service__list-icons"/>
-              <p>Building top-notch user interfaces for both web and app</p>
+              <p>Gathering and evaluating user requirements, in collaboration with product managers and engineers.</p>
               </motion.li>
               <motion.li
                 variants={ExpTextBAnimation2}
@@ -52,7 +54,7 @@ const Service = () => {
                 viewport={{once: true}}
               >
               <BsCheck2 className="service__list-icons"/>
-              <p>Develop prototypes and performs hands-on coding to develop and integrate the application user interface.</p>
+              <p>Illustrating design ideas using storyboards, process flows and sitemaps.</p>
               </motion.li>
               <motion.li
                 variants={ExpTextBAnimation3}
@@ -61,7 +63,7 @@ const Service = () => {
                 viewport={{once: true}}
               >
               <BsCheck2 className="service__list-icons"/>
-              <p>Translate graphic visual and interactive designs into interactive webapp and mobile</p>
+              <p>Designing graphic user interface elements, like menus, tabs and widgets.</p>
               </motion.li>
               <motion.li
                 variants={ExpTextBAnimation4}
@@ -70,7 +72,7 @@ const Service = () => {
                 viewport={{once: true}}
               >
               <BsCheck2 className="service__list-icons"/>
-              <p>Troubleshooting issues and solving problems where needed.</p>
+              <p>Build page navigation buttons and search fields.</p>
               </motion.li>
               <motion.li
                 variants={ExpTextBAnimation5}
@@ -88,7 +90,7 @@ const Service = () => {
               viewport={{once: true}}
             >
               <BsCheck2 className="service__list-icons"/>
-              <p>Knowledge of UX.</p>
+              <p>Develop UI mockups and prototypes that clearly illustrate how sites function and look like.</p>
             </motion.li>
           </ul>
         </motion.article>
@@ -105,7 +107,7 @@ const Service = () => {
               initial="hidden"
               whileInView="show"
               viewport={{once: true}}
-            >Mobile App Development</motion.h3>
+            >GRAPHICS DESIGN</motion.h3>
           </div>
 
           <ul className="service__list">
@@ -116,7 +118,7 @@ const Service = () => {
               viewport={{once: true}}
             >
               <BsCheck2 className="service__list-icons"/>
-              <p>Architect, build and maintain excellent React Native applications with clean code.</p>
+              <p>Study design briefs and determine requirements.</p>
               </motion.li>
               <motion.li
                 variants={ExpTextBAnimation2}
@@ -125,7 +127,8 @@ const Service = () => {
                 viewport={{once: true}}
               >
               <BsCheck2 className="service__list-icons"/>
-              <p>Implement pixel perfect UI's that match designs specifications.</p>
+              <p>Test graphics across various media.
+</p>
               </motion.li>
               <motion.li
                 variants={ExpTextBAnimation3}
@@ -134,7 +137,8 @@ const Service = () => {
                 viewport={{once: true}}
               >
               <BsCheck2 className="service__list-icons"/>
-              <p>Implement clean, modern, smooth animations and transitions that provide an excellent user experience.</p>
+              <p>Amend designs after feedback.
+</p>
               </motion.li>
               <motion.li
                 variants={ExpTextBAnimation4}
@@ -143,7 +147,8 @@ const Service = () => {
                 viewport={{once: true}}
               >
               <BsCheck2 className="service__list-icons"/>
-              <p>Integrate third-party API's.</p>
+              <p>Work with copywriters and creative director to produce final design.
+</p>
               </motion.li>
               <motion.li
                 variants={ExpTextBAnimation5}
@@ -152,7 +157,8 @@ const Service = () => {
                 viewport={{once: true}}
               >
               <BsCheck2 className="service__list-icons"/>
-              <p>Write unit and integration tests.</p>
+              <p>Use the appropriate colors and layouts for each graphic.
+</p>
             </motion.li>
           </ul>
         </motion.article>

@@ -42,7 +42,8 @@
 }
 .about__card:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: #1f1f38;
+    color: #1f1f38;
 }
 .about__icons {
     color: var(--color-primary);
@@ -54,7 +55,10 @@
 }
 .about__card small {
     font-size: 0.7rem;
-    color: var(--color-light);
+}
+.about__card small:hover {
+    font-size: 0.7rem;
+    color: #1f1f38;
 }
 .about__content p {
     margin: 2rem 0 2.6rem;

@@ -10,6 +10,7 @@ const CTA = () => {
         variants={CTAnimation2}
         initial="hidden"
         animate="show"
+        style={{borderColor: '#1f1f38', color: '#1f1f38'}}
       >Download CV</motion.a>
       <motion.a href="#contact" className="btn btn-primary"
         variants={CTAnimation1}

@@ -12,16 +12,22 @@ const HeaderSocials = () => {
         variants={headerIcons3}
         initial="hidden"
         animate="show"
+        style={{color: '#1f1f38'}}
+        whileHover={{color: 'var(--color-primary)'}}
       ><BsLinkedin /></motion.a>
       <motion.a href="https://github.com" target="_blank"
         variants={headerIcons2}
         initial="hidden"
         animate="show"
+        style={{color: '#1f1f38'}}
+        whileHover={{color: 'var(--color-primary)'}}
       ><FaGithub /></motion.a>
       <motion.a href="https://codepen.com" target="_blank"
         variants={headerIcons1}
         initial="hidden"
         animate="show"
+        style={{color: '#1f1f38'}}
+        whileHover={{color: 'var(--color-primary)'}}
       ><FaCodepen /></motion.a>
     </div>
   );

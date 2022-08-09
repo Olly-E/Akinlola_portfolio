@@ -31,7 +31,7 @@ header {
     content: '';
     width: 1px;
     height: 2rem;
-    background: var(--color-primary);
+    background: #1f1f38;
 }
 /* image */
 .me {
@@ -66,6 +66,7 @@ header {
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
+    color: #1f1f38;
 }
 /****************media queries*************/
 @media screen and (max-width: 1024px){

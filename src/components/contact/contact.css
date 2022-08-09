@@ -22,7 +22,8 @@
 
 .contact__option:hover {
     background: transparent;
-    border-color: var(--primary-variant);
+    border-color: #1f1f38;
+    color: #1f1f38;
 }
 
 .contact__option-icon {
@@ -49,6 +50,23 @@ input, textarea {
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
+}
+.btn-pri{
+    background: #1f1f38;
+    color: white;
+    width: max-content;
+    padding: 0.75rem 1.2rem;
+    display: inline-block;
+    color: var(--color-primary);
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+.btn-pri:hover {
+    background: transparent;
+    border-color: #1f1f38;
+    color: #1f1f38;
 }
 
 @media screen and (max-width: 1024px) {

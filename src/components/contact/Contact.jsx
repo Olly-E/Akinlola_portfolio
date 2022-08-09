@@ -17,27 +17,27 @@ const Contact = () => {
   
   return (
     <section id="contact">
-      <h5>Get in touch</h5>
-      <h2>Contact Me</h2>
+      <h5 style={{color: '#1f1f38'}}>Get in touch</h5>
+      <h2 style={{color: '#1f1f38'}}>Contact Me</h2>
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
             <MdOutlineMail className="contact__option-icon"/>
             <h4>Email</h4>
-            <h5>akinsnuel@gmail.com</h5>
-            <a href="akinsnuel@gmail.com" target="_blank">Send a message</a>
+            <h5>elijahanibi@gmail.com</h5>
+            <a href="elijahanibi@gmail.com" target="_blank">Send a message</a>
           </article>
           <article className="contact__option">
             <RiMessengerLine className="contact__option-icon"/>
             <h4>Messenger</h4>
-            <h5>Akinsiku Emmanuel</h5>
-            <a href="https://m.me/nuel.akins" target="_blank">Send a message</a>
+            <h5>Anibi Elijah</h5>
+            <a href="https://m.me/Akinola.Elijah" target="_blank">Send a message</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className="contact__option-icon"/>
             <h4>WhatsApp</h4>
-            <h5>+2348133946674</h5>
-            <a href="https://api.whatsapp.com/send?phone=+2348133946674" target="_blank">Send a message</a>
+            <h5>+2349039459108</h5>
+            <a href="https://wa.me/+2349039459108" target="_blank">Send a message</a>
           </article>
         </div>
         {/* End of contact options */}
@@ -45,7 +45,7 @@ const Contact = () => {
           <input type="text" name="name" placeholder="Your Full Name" required/>
           <input type="email" name="email" placeholder="email" />
           <textarea name="message" placeholder="Your message..." rows="7" required></textarea>
-          <button type="submit" class="btn btn-primary">Send Messaage</button>
+          <button type="submit" class="btn-pri">Send Messaage</button>
         </form>
       </div>
     </section>

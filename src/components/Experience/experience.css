@@ -22,8 +22,9 @@
 }
 .experience__container > div:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: #1f1f38;
     cursor: default;
+    color: #1f1f38;
 }
 
 .experience__container > div h3 {
@@ -34,6 +35,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 2rem;
+    gap: 1rem;
 }
 .experience__details {
     display: flex;

@@ -13,8 +13,9 @@
 
 .service:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: #1f1f38;
     cursor: default;
+    color: #1f1f38;
 }
 
 .service__head {

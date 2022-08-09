@@ -12,13 +12,14 @@ const About = () => {
 
   return (
     <section id="about" >
-      <motion.h5
+      <motion.h5 style={{color: '#1f1f38'}}
         variants={nameAnimation1b}
         initial="hidden"
         whileInView="show"
         viewport={{once: true}}
       >Get to know</motion.h5>
       <motion.h2
+      style={{color: '#1f1f38'}}
         variants={nameAnimation2b}
         initial="hidden"
         whileInView="show"
@@ -74,6 +75,7 @@ const About = () => {
           initial="hidden"
           whileInView="show"
           viewport={{once: true}}
+          style={{color: '#1f1f38'}}
         >
         Individual with love for designs and unique challenges, imbued overtime with problem solving skills. A full time UI/UX and graphics designer with ability to design responsive websites and web apps for buisness of varying sizes, with eye catching UI designs and complete web functionality that makes them stand out from the ordinary.
         </motion.p>

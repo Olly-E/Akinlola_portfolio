@@ -39,8 +39,8 @@ const data = [
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h5>Review from clients</h5>
-      <h2>Testimonials</h2>
+      <h5 style={{color: '#1f1f38'}}>Review from clients</h5>
+      <h2 style={{color: '#1f1f38'}}>Testimonials</h2>
       <Swiper className="container testimonials__container"
             // install Swiper modules
             modules={[Pagination]}

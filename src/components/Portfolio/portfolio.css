@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
+    padding: 3rem;
 }
 .portfolio__item {
     background: var(--color-bg-variant);
@@ -9,11 +10,9 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    height: 30rem;
 }
-.portfolio__item:hover {
-    border-color: var(--color-primary-variant);
-    background: transparent;
-}
+
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;

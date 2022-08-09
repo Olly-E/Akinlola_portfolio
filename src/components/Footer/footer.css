@@ -8,7 +8,12 @@ footer{
 }
 footer a {
     color: var(--color-bg);
+    transition: all 300ms ease-in-out;
 }
+footer a:hover {
+    color: white;
+}
+
 
 .footer__logo {
     font-size: 2rem;

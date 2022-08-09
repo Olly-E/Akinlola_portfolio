@@ -13,8 +13,9 @@ import Footer from './components/Footer/Footer';
 const App = () => {
   return (
     <div>
-      <Header />
       <Nav />
+    <div style={{background: 'rgba(255, 255, 255, 0.5) ', backdropFilter: 'blur(10px)', width: '90%', margin: 'auto'}}>
+      <Header />
       <About />
       <Experience />
       <Service />
@@ -22,6 +23,7 @@ const App = () => {
       <Testimonials />
       <Contact />
       <Footer />
+    </div>
     </div>
   );
 }

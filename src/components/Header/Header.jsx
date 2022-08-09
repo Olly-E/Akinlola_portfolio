@@ -15,16 +15,19 @@ const Header = () => {
           variants={nameAnimation1}
           initial="hidden"
           animate="show"
+          style={{color: '#1f1f38'}}
          >Hello I'm</motion.h5>
          <motion.h1
           variants={nameAnimation2}
           initial="hidden"
           animate="show"
+          style={{color: '#1f1f38'}}
          >Anibi Elijah A.</motion.h1>
          <motion.h5 className="text-light"
           variants={nameAnimation3}
           initial="hidden"
           animate="show"
+          style={{color: '#1f1f38'}}
          >Graphics, UI/UX/ Designer</motion.h5>
          <CTA />
          <HeaderSocials />
@@ -45,6 +48,7 @@ const Header = () => {
           variants={headerIcons4}
           initial="hidden"
           animate="show"
+          whileHover={{color: 'var(--color-primary)'}}
           
          >Scroll Down</motion.a>
        </div>

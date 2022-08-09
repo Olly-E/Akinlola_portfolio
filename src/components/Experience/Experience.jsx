@@ -12,12 +12,14 @@ const Experience = () => {
         initial="hidden"
         whileInView="show"
         viewport={{once: true}}
+        style={{color: '#1f1f38'}}
       >The Skills I have</motion.h5>
       <motion.h2
         variants={nameAnimation2b}
         initial="hidden"
         whileInView="show"
         viewport={{once: true}}
+        style={{color: '#1f1f38'}}
       >My Experience</motion.h2>
 
       <motion.div className="container experience__container"
@@ -33,7 +35,7 @@ const Experience = () => {
           variants={FrontEnd}
           initial="hidden"
           animate="show"
-          >Frontend Development</motion.h3>
+          >UI/UX Design</motion.h3>
           <div className='experience__content'>
             <motion.article className='experience__details'
                variants={ExpTextBAnimation1}
@@ -43,7 +45,7 @@ const Experience = () => {
             >
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
-                <h4>HTML</h4>
+                <h4>Figma</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </motion.article>
@@ -55,7 +57,7 @@ const Experience = () => {
             >
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
-              <h4>CSS</h4>
+              <h4>Design Strategy</h4>
               <small className="text-light">Experienced</small>
               </div>
             </motion.article>
@@ -67,7 +69,7 @@ const Experience = () => {
             >
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
-              <h4>JavaScript</h4>
+              <h4>Illustrator</h4>
               <small className="text-light">Experienced</small>
               </div>
             </motion.article>
@@ -79,7 +81,7 @@ const Experience = () => {
             >
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
-              <h4>Tailwind</h4>
+              <h4>Photoshop</h4>
               <small className="text-light">Experienced</small>
               </div>
             </motion.article>
@@ -91,7 +93,7 @@ const Experience = () => {
             >
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
-              <h4>Bootstrap</h4>
+              <h4>Asobe XD</h4>
               <small className="text-light">Experienced</small>
               </div>
             </motion.article>
@@ -103,7 +105,7 @@ const Experience = () => {
               >
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
-              <h4>React</h4>
+              <h4>Journey Map</h4>
               <small className="text-light">Expericed</small>
               </div>
             </motion.article>
@@ -115,7 +117,7 @@ const Experience = () => {
             >
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
-              <h4>React Native</h4>
+              <h4>prototyping</h4>
               <small className="text-light">Intermediate</small>
               </div>
             </motion.article>
@@ -127,7 +129,7 @@ const Experience = () => {
             >
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
-              <h4>Framer Motion</h4>
+              <h4>Usability Testing</h4>
               <small className="text-light">Experienced</small>
               </div>
             </motion.article>
@@ -139,20 +141,8 @@ const Experience = () => {
             >
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
-              <h4>Styled Components CSS</h4>
+              <h4>Graphic Design</h4>
               <small className="text-light">Experienced</small>
-              </div>
-            </motion.article>
-            <motion.article className='experience__details'
-               variants={ExpTextBAnimation5}
-        initial="hidden"
-        whileInView="show"
-        viewport={{once: true}}
-            >
-              <BsPatchCheckFill className="experience__details-icon"/>
-              <div>
-              <h4>Gatsby</h4>
-              <small className="text-light">Intermediate</small>
               </div>
             </motion.article>
             <motion.article className='experience__details'
@@ -163,8 +153,8 @@ const Experience = () => {
             >
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
-              <h4>Photoshop</h4>
-              <small className="text-light">Intermediate</small>
+              <h4>CRM Skills</h4>
+              <small className="text-light">Expert</small>
               </div>
             </motion.article>
             <motion.article className='experience__details'
@@ -175,8 +165,8 @@ const Experience = () => {
             >
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-              <h4>Coreldraw</h4>
-              <small className="text-light">Intermediate</small>
+              <h4>Analytic Skills</h4>
+              <small className="text-light">Expert</small>
               </div>
             </motion.article>
           </div>
