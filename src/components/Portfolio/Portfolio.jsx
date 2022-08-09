@@ -4,7 +4,7 @@ import IMG1 from '../../assets/portfolio1.jpg';
 import IMG2 from '../../assets/portfolio2.jpg';
 import IMG3 from '../../assets/portfolio3.jpg';
 import IMG4 from '../../assets/portfolio4.jpg';
-import IMG5 from '../../assets/portfolio5.png';
+import IMG5 from '../../assets/portfolio5.jpg';
 import IMG6 from '../../assets/portfolio6.jpg';
 import beuaty_parlor from '../../assets/beuaty_parlor.jpg'
 
@@ -12,7 +12,7 @@ const data = [
   {
     id:1,
     image: IMG1,
-    title: 'Crypto fintech landing',
+    title: 'Crypto fintech temporary page',
     github: 'https://github.com/Olly-E/PaybuymaxTemp',
     demo: 'http://www.paybuymax.com'
   },
@@ -26,7 +26,7 @@ const data = [
   {
     id:3,
     image: IMG3,
-    title: 'Figma design UI kit for data design and web apps',
+    title: 'Paybuymax Fintech app, trades digital assets and invests',
     github: 'http://github.com',
     demo: '#'
   },
@@ -40,7 +40,7 @@ const data = [
   {
     id:5,
     image: IMG5,
-    title: 'Charts template and infographics in figma',
+    title: 'Personal portfolio site',
     github: 'http://github.com',
     demo: '#'
   },
