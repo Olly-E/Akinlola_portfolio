@@ -17,6 +17,9 @@
     display: grid;
     place-items: center;
 }
+#root > div > div > header > div > div.Invisible > div > img{
+    max-height: 450px;
+}
 
 .about__me-image {
     border-radius: 2rem;

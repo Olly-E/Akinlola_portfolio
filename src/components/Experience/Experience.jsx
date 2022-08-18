@@ -93,7 +93,7 @@ const Experience = () => {
             >
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
-              <h4>Asobe XD</h4>
+              <h4>Adobe XD</h4>
               <small className="text-light">Experienced</small>
               </div>
             </motion.article>

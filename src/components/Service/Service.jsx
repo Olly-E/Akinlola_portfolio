@@ -81,7 +81,7 @@ const Service = () => {
                 viewport={{once: true}}
               >
               <BsCheck2 className="service__list-icons"/>
-              <p>Writing efficient JavaScript code while also using HTML and CSS.</p>
+              <p>Develop UI mockups and prototypes that clearly illustrate how sites function and look like.</p>
             </motion.li>
             <motion.li
               variants={ExpTextBAnimation6}
@@ -90,7 +90,7 @@ const Service = () => {
               viewport={{once: true}}
             >
               <BsCheck2 className="service__list-icons"/>
-              <p>Develop UI mockups and prototypes that clearly illustrate how sites function and look like.</p>
+              <p>Conduct layout adjustments based on user feedback.</p>
             </motion.li>
           </ul>
         </motion.article>

@@ -1,6 +1,7 @@
 import './about.css'
 import React, {useRef} from 'react'
-import ME from '../../assets/me-about.jpg'
+// import ME from '../../assets/me-about.jpg'
+import newnew from '../../assets/newnew.png'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc';
@@ -28,7 +29,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <motion.img src={ME} alt="about image" 
+            <motion.img src={newnew} alt="about image" 
               variants={meImgAnimation}
               initial="hidden"
               whileInView="show"
