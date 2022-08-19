@@ -22,7 +22,7 @@ const HeaderSocials = () => {
         style={{color: '#1f1f38'}}
         whileHover={{color: 'var(--color-primary)'}}
       ><FaBehanceSquare/></motion.a>
-      <motion.a href="https://codepen.com" target="_blank"
+      <motion.a href="http://figma.com/@elijahanibi" target="_blank"
         variants={headerIcons1}
         initial="hidden"
         animate="show"
